@@ -11,12 +11,13 @@ body {
   box-sizing: border-box;
 }
 
-.inner-container{
+.inner-container {
   max-width: 85vw;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
 /* .inner-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -38,6 +39,7 @@ body {
 .align-center {
   align-items: center;
 }
+
 .align-bottom {
   align-items: flex-end;
 }
@@ -61,7 +63,7 @@ a {
 }
 
 .border-bottom {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 /* MARGIN */
@@ -76,7 +78,8 @@ a {
 .mt-3 {
   margin-top: 3rem;
 }
-.mt-2{
+
+.mt-2 {
   margin-top: 2rem;
 }
 
@@ -85,9 +88,10 @@ a {
   padding-top: 2rem;
 }
 
-.pt-3{
+.pt-3 {
   padding-top: 3rem;
 }
+
 .pt-4 {
   padding-top: 4rem;
 }
@@ -121,11 +125,11 @@ a {
   font-family: system-ui, sans-serif;
 }
 
-.battambang{
+.battambang {
   font-family: 'battambang', math, serif;
 }
 
-.battambang-thin{
+.battambang-thin {
   font-family: 'battambang-thin', math, serif;
 }
 
@@ -133,6 +137,7 @@ a {
   font-family: 'battambang';
   src: url('../Fonts/Battambang/Battambang-Light.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'battambang-thin';
   src: url('../Fonts/Battambang/Battambang-Thin.ttf') format('truetype');
@@ -143,9 +148,11 @@ a {
 .font-14 {
   font-size: 0.8rem;
 }
+
 .font-16 {
   font-size: 1rem;
 }
+
 .font-18 {
   font-size: 1.1rem;
 }
@@ -154,11 +161,11 @@ a {
   font-size: 1.3rem;
 }
 
-.font-32{
+.font-32 {
   font-size: 3rem;
 }
 
-.font-40{
+.font-40 {
   font-size: 3.5rem;
 }
 
@@ -191,8 +198,9 @@ h1 {
   color: #ec323b;
 }
 
-.dark-red{
-  color: #D1232D;;
+.dark-red {
+  color: #D1232D;
+  ;
 }
 
 /* HEADER */
@@ -210,7 +218,7 @@ h1 {
   height: 20vh;
 }
 
-.release-heading{
+.release-heading {
   height: 15vh;
 }
 
@@ -224,6 +232,7 @@ h1 {
   grid-column: 1 / span 2;
   height: 25vh;
 }
+
 .image-wrapper {
   grid-column: 3;
   grid-row: 1 / span 2;
@@ -234,6 +243,7 @@ h1 {
   align-items: anchor-center;
   max-width: 100%;
 }
+
 .content-detail .hero,
 .content-detail .release,
 .social-link,
@@ -255,7 +265,7 @@ h1 {
 
 }
 
-.hero.content-image{
+.hero.content-image {
   position: relative;
   top: -2rem;
 }
@@ -264,9 +274,11 @@ h1 {
   width: 100%;
   box-shadow: 10px 10px 24px rgba(0, 0, 0, 0.51);
 }
+
 .social-link {
   justify-content: space-between;
 }
+
 .social-link a {
   align-content: center;
 }
@@ -311,9 +323,11 @@ h1 {
   margin-top: 3rem;
   overflow: hidden;
 }
+
 .book-image {
   width: 15vw;
 }
+
 .book-image img {
   width: 100%;
   padding-bottom: 1rem;
@@ -348,6 +362,7 @@ footer {
   flex-direction: column;
   gap: 1rem;
 }
+
 .f-logo {
   width: 3vw;
 }
@@ -368,99 +383,111 @@ footer {
 /*----- BOOK DETAIL PAGE ------*/
 
 /* CORNER DESIGN  */
-.corner-box-container{
+.corner-box-container {
   justify-content: space-between;
 }
-.corner-box{
+
+.corner-box {
   width: 50px;
   height: 50px;
 }
 
-.corner-box.one, .corner-box.two{
-  border-bottom: 1.5px solid black;
+.corner-box.one,
+.corner-box.two {
+  border-bottom: 2px solid black;
 
 }
-.corner-box.one{
+
+.corner-box.one {
   border-right: 1.5px solid black;
 }
 
-.corner-box.two{
+.corner-box.two {
   border-left: 1.5px solid black;
 }
 
-.corner-box.three, .corner-box.four{
+.corner-box.three,
+.corner-box.four {
   border-top: 1.5px solid black;
 }
-.corner-box.three{
+
+.corner-box.three {
   border-right: 1.5px solid black;
 }
 
-.corner-box.four{
+.corner-box.four {
   border-left: 1.5px solid black;
 }
 
 
 /* DETAIL SECTION  */
- .book-detail-sect {
+.book-detail-sect {
   position: relative;
   top: -1.6rem;
   max-width: 1250px;
   margin: 0 auto;
 
 }
-.book-detail-wrapper{
+
+.book-detail-wrapper {
   grid-template-columns: 50% 50%;
   gap: 2rem;
   text-align: justify;
 }
 
 
-.first-half{
-  grid-column: 1 /span 2;;
+.first-half {
+  grid-column: 1 /span 2;
+  ;
 }
-.book-cover{
+
+.book-cover {
   max-width: 40%;
 }
 
-.book-cover img{
+.book-cover img {
   max-width: 100%;
 }
-.book-detail{
+
+.book-detail {
   width: 75%;
 
 }
-.detail{
+
+.detail {
   margin-left: 15%;
 }
-.p-label{
+
+.p-label {
   font-weight: 600;
   font-size: 20px;
   font-family: 'battambang-thin';
 }
 
-.book-description{
+.book-description {
   justify-content: space-between;
 }
 
-.detail-bottom{
+.detail-bottom {
   gap: 1rem;
   align-items: center;
 }
 
-.bottom-logo{
+.bottom-logo {
   min-width: 45%;
 }
 
-.bottom-logo img{
+.bottom-logo img {
   width: 60%;
 }
-.address-detail{
+
+.address-detail {
   border-left: 2px solid #66696d;
   padding-left: 5%;
 
 }
 
-.bottom.corner-box-container{
+.bottom.corner-box-container {
   position: relative;
   top: -3.5rem;
   z-index: -1;
